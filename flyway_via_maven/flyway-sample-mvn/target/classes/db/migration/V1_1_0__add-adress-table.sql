@@ -1,0 +1,10 @@
+CREATE TABLE `address` (
+	`id` INT(11) NOT NULL DEFAULT '0',
+	`Rue` VARCHAR(30) NULL DEFAULT NULL,
+	`ville` VARCHAR(32) NULL DEFAULT NULL,
+	`codepostale` VARCHAR(10) NULL DEFAULT NULL,
+	`client_num` INT(11) NULL DEFAULT NULL,
+	PRIMARY KEY (`id`)
+)
+COLLATE='latin1_swedish_ci'
+ENGINE=InnoDB;

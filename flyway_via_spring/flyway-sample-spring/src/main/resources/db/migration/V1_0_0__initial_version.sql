@@ -1,0 +1,22 @@
+CREATE TABLE `client` (
+	`id` INT(11) NOT NULL DEFAULT '0',
+	`nom` VARCHAR(25) NULL DEFAULT NULL,
+	`prenom` VARCHAR(25) NULL DEFAULT NULL,
+	`inscription` DATE NULL DEFAULT NULL,
+	PRIMARY KEY (`id`)
+)
+COLLATE='latin1_swedish_ci'
+ENGINE=InnoDB;
+
+ 
+
+CREATE TABLE `produit` (
+	`id` INT(11) NOT NULL DEFAULT '0',
+	`nom` VARCHAR(25) NULL DEFAULT NULL,
+	`achat` DATE NULL DEFAULT NULL,
+	`stock` INT(11) NULL DEFAULT NULL,
+	`description` VARCHAR(100) NULL DEFAULT NULL,
+	PRIMARY KEY (`id`)
+)
+COLLATE='latin1_swedish_ci'
+ENGINE=InnoDB;
