@@ -18,4 +18,4 @@ Vous pouvez trouver l'article correspondant sur [le blog de soat] [1] .
 
 
 
-    My email addy is tom@github.com.
+    My email address is ben.nasr.rabii@gmail.com
