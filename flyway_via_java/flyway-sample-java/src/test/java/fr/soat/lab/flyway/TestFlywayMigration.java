@@ -15,7 +15,7 @@ import com.googlecode.flyway.core.Flyway;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = "test-context.xml")
 public class TestFlywayMigration {
-
+//test simple java flyway
 	@Autowired
 	private DataSource dataSource;
 
