@@ -24,6 +24,7 @@ public class TestFlywayMigration {
 // test git sample java
 		// test git sample 3
 		//test git sample 4
+		//test git sample 5
 		Flyway flyway = new Flyway();
 		flyway.setDataSource(dataSource);
 		flyway.migrate();
