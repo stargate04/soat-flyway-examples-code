@@ -23,6 +23,7 @@ public class TestFlywayMigration {
 	public void authorTableShouldExist() throws SQLException {
 // test git sample java
 		// test git sample 3
+		//test git sample 4
 		Flyway flyway = new Flyway();
 		flyway.setDataSource(dataSource);
 		flyway.migrate();
